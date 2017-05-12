@@ -1,0 +1,16 @@
+
+<snippet>
+    <content><![CDATA[${1:private }function read_csv($path){
+    # reads csv files and returns the output
+    $file = fopen($path,'r');
+    $out = fgetcsv($file);
+    fclose($file);
+    return $out;
+}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>read_csv()</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>read csv to array</description>
+</snippet>

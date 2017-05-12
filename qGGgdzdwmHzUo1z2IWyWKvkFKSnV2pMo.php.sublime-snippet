@@ -1,0 +1,13 @@
+
+<snippet>
+    <content><![CDATA[if (!count(debug_backtrace()))
+{
+    ${1:echo 'if name is main!';}
+}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>if_name_is_main</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>if __name__ is '__main__':</description>
+</snippet>
