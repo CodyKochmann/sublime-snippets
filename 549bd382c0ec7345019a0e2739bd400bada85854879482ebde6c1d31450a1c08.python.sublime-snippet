@@ -1,0 +1,11 @@
+
+<snippet>
+    <content><![CDATA[${1:from battle_tested import battle_tested}
+battle_tested.fuzz(${2:target_function})]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>battle_test</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>quick fuzzing</description>
+</snippet>

@@ -1,0 +1,14 @@
+
+<snippet>
+    <content><![CDATA[private function ${1:main}(${2:$value}${3:=''})
+{
+    ${4:# code...}
+    $5
+}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>private</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>private function()</description>
+</snippet>

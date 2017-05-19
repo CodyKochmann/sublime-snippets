@@ -10,6 +10,8 @@ example_output="""
 </snippet>
 """
 
+
+
 def random_string(length=32,upper=True,lower=True,digits=True):
     # Generates a random string with selectable characters
     # By: Cody Kochmann

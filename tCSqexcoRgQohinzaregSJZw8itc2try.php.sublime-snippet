@@ -1,0 +1,10 @@
+
+<snippet>
+    <content><![CDATA[(string)json_encode($1)$2]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>json_encode</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>(string)json_encode(...)</description>
+</snippet>

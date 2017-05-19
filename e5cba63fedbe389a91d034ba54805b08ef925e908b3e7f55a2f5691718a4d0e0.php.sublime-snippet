@@ -1,0 +1,17 @@
+
+<snippet>
+    <content><![CDATA[# random int generator
+function randint()
+{
+    $f=fopen("/dev/urandom", 'rb');
+    $out=(int)(unpack("Nint", fread($f, 4))['int']);
+    fclose($f);
+    return $out;
+}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>randint</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>randint()</description>
+</snippet>
